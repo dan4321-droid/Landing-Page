@@ -1,0 +1,41 @@
+body {
+    color: #F9FAF8;
+}
+
+.headerone {
+    background-color: #1F2937;
+    display: flex;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.logo{
+    color: #F9FAF8; 
+    font-size: 24px;
+    
+}
+
+.sidebar {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-end;
+    color: #e5e7eb; 
+    font-size: 18px; 
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  .left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
